@@ -1,0 +1,240 @@
+
+
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    width:100% ;
+    height: 10vh ;
+    border-bottom:solid #222222 1px ;
+    z-index:10 ;
+    top:0px;
+    opacity: 1;
+    
+}
+#mediumicondiv{
+    display:flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    
+   
+}
+#search{
+    --search-input-color:#6B6B6B;
+    display:flex;
+    position: absolute;
+    width: 35vh;
+    height: 6vh;
+    background-color: #F9F9F9;
+    left:25vh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    flex-direction: row;
+    align-items: center;
+}
+
+#search-input{
+   
+    border: none;
+    outline: none;
+    background-color:#F9F9F9;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#search:focus-within{
+    --search-input-color:#242424;
+}
+#search-icon{
+    margin: 1vh;
+}
+
+#icon-path{
+    fill:var(--search-input-color);
+    
+}
+#write-icon{
+    
+    align-items: center;
+    color:var(--write-color);
+   
+}
+#options{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    --write-color:#6B6B6B;
+    color:var(--write-color);
+    width: 15%;
+    height: 100%;
+    border: none;
+    
+}
+
+
+#write-text{
+    display:inline;
+    color:var(--write-color);
+    font-size: 2vh;
+}
+#write{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 11vh;
+    height: 5vh;
+    background-color: #fff;
+    border:none;
+   
+}
+#write:hover{
+    --write-color:#242424;
+}
+#zangoole{
+    --zangoole-color:#6B6B6B;
+    color:var(--zangoole-color);
+    border:none;
+    background-color: #fff;
+}
+#zangoole:hover{
+
+    --zangoole-color:#242424;
+    color: var(--zangoole-color);
+}
+#profile{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    margin-right: 3vh;
+    cursor: pointer;
+
+}
+#main-container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    
+  
+}
+#left-div-main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64%;
+    background-color:rgb(201, 195, 195);
+    height: 100%;
+}
+
+#left-inner-container{
+    position: relative;
+    width: 70%;
+    height: 140vh;
+    background-color: white;
+    margin-left: 8%;
+}
+#suggestion{
+    display:flex;
+    align-items: center;
+   justify-content: flex-start;
+    flex-direction: row;
+    height: 6vh;
+    width: 100%;
+    border-bottom:solid 1px #222222;
+    margin-top: 6vh;
+   
+    border-bottom:solid 1px #e0e0e0;
+}
+
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   margin-right: 2vh;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    height: 100%;
+    letter-spacing: -0.3px;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color:#6B6B6B;
+}
+.buttons:hover{
+    color:inherit;
+}
+.active{
+    border-bottom:solid 1px #242424;
+    color:inherit;
+   
+}
+#plus-icon{
+    margin-right: 2vh;
+}
+#plus-fill{
+    fill:#6B6B6B;
+    cursor: pointer;
+    
+}
+#plus-fill:hover{
+    fill:inherit ;
+}
+#plusfill-active{
+    fill:inherit;
+    border-bottom: #222222 solid 1px;
+}
+#right-div-main{
+    width: 36%;
+    height: 100%;
+    background-color: pink;
+}
+#right-inner-container{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    height: 140vh;
+    background-color: white;
+    margin-left: 8%;
+}
+.right-container-part{
+    display:flex;
+    flex-direction: column;
+
+    background-color:yellow;
+}
+.a{
+    margin: 1vh;
+    margin-top: 0vh;
+    padding: 0;
+}
+.traits{
+    color:#404040;
+    text-decoration: none;
+}
+.no-care{
+    color:#808080;
+}
+.inner-profile{
+    border-radius: 50%;
+}
+.staff-main-speak{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1vh;
+    text-decoration: none;
+    color: #242424;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.k{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 2vh;
+    
+}

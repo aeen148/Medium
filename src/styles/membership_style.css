@@ -1,0 +1,278 @@
+/* MEMBERSHIP CLASS STYLE*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.white-header{
+   
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width:100% ;
+    height: 10vh ;
+    border-bottom:solid #222222 1px ;
+    z-index:10 ;
+    top:0px;
+    opacity: 1;
+   align-items: center;
+}
+.buttons-white{
+    background-color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+    position:relative;
+    right:1px ;
+    width:20%;
+    font-weight: 500;
+}
+
+#medium-icon-white{
+    display:flex;
+    color:#222222;
+    position: absolute;
+    width:5vh ;
+    height:4vh ;
+    left:2.4% ;
+    top:3.2%;
+   
+}
+#medium-white{
+    display:flex;
+    color:#222222;
+    position:absolute;
+    left:5%;
+    font-family:inherit;
+    font-weight: 700;
+    top:3%;
+}
+#main-membership-container{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: #222222;
+}
+#top-container{
+    display:flex;
+    position:relative;
+    flex-direction:row;
+    justify-content:right;
+
+    height: 85vh;
+    width: 100%;
+}
+#right-part{
+    display: flex;
+    width: 33%;
+    height: 100%;
+    /*background-color: aquamarine;*/
+    flex-direction: column;
+   
+    
+}
+#left-part{
+    display:flex;/*first image background-color: rgba(208, 208, 208, 0.4)*/
+    width: 67%;/*purple image*/
+    background-color: aqua;
+    height: 100%;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+#changing-images{
+    display:inline;
+    width: 100%;
+    height: 80vh;
+    transition:background-image 2000ms ease ;
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 43.75%, rgb(250, 249, 244) 94.27%);
+
+}
+#members-only{
+    display:flex;
+    border-radius: 20px;
+    width:20vh ;
+    height: 4vh;
+    background-color: rgb(255, 192, 23);
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    border:none;
+    cursor:auto;
+    position: absolute;
+    margin:1.5% 1.5%;
+}
+#support-human-stories{
+    margin:6vh 3vh ;
+    font-size: 70px;
+    height: 45%;
+    color:black;
+}
+.advertisement{
+    height: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:100% ;
+    margin:3vh ;
+}
+.Get-Started{
+    border-radius: 25px;
+    width: 17vh;
+    height: 6vh;
+    color:#fff;
+    background-color: #222222;
+    font-size: large;
+  
+    
+}
+.view-plans{
+    border-radius: 25px;
+    width: 17vh;
+    height: 6vh;
+    color:#555555;
+    background:none;
+    font-size: large;
+    border:solid 1px #555555;
+}
+#bottom-container{
+    display:flex;
+    position:relative;
+    width: 100%;
+    border-top:solid #222222 1px ;
+    flex-direction: column;
+     
+}
+.one-container{
+    border-top:solid 1px #222222;
+    width: 100%;
+    height: 209vh;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+
+}
+.two-container{
+    border-top:solid 1px #222222;
+    width: 100%;
+    height: 120vh;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+
+}
+.three-container{
+    border-top:solid 1px #222222;
+    width: 100%;
+    height: 125vh;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+
+}
+.topics{
+    width:35%;
+    height: 100%;
+    position: relative;
+}
+.why-memberships{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+   
+}
+.members-opinion{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width: 65%;
+}
+.membership-plans{
+    display:flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content:flex-start;
+    align-items: center;
+    
+    
+
+}
+.subjects{
+    font-family: 'merriweather',medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 9vh;
+    margin:11.5vh 5vh;
+   
+    position:relative;
+}
+.text-handler{
+    font-family: 'merriweather',medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin:11.5vh 5vh;
+    width: 68%;
+    height: 40vh;
+}
+.text-handlerr{
+    display:flex;
+    flex-direction: row;
+ 
+    font-family: 'merriweather',medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin:11.5vh 5vh;
+    width: 68%;
+}
+.text{
+    color:#555555;
+    font-weight: 500;
+    font-size: 17px;
+}
+.buy{
+    display:flex;
+    justify-content: flex-start;
+   flex-direction:column;
+   align-items: center;
+    width:40vh ;
+    height: 70vh;
+    border: solid  1px #ccc;
+    margin:3vh;
+    position:relative;
+
+}
+.mark{
+    background-color: rgb(255, 192, 23);
+    padding:0px;
+}
+.buy-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-start;
+   
+}
+.A{
+    margin: 2vh 0vh;
+    position:relative;
+}
+.B{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    width: 90%;
+}
+.list{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+  
+}
+.listpart{
+    width: 80%;
+    font-weight: 600;
+}
+.listpart-small{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+
